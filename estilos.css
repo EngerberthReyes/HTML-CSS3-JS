@@ -1,0 +1,143 @@
+* {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.cuerpo {
+    background: #000000;
+}
+
+.contenido {
+    display: inline-block;
+    position: relative;
+    background: #000000;
+    color: #ffffff;
+    padding: 0 0 10px 0;
+}
+
+.titulo-supuestamente {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 5px 0 5px 0;
+}
+
+.titulo-supuestamente:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #ffffff;
+    border: 4px dashed #c70e80;
+    transition: 1s ease 0s;
+}
+
+.texto {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    border: 4px dashed #ffffff;
+    padding: 5px 0 0 0;
+}
+
+.boton {
+    border: 3px solid #ffffff;
+    background: #ff0000;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background: #6e1199;
+    transition: 1s ease 0s;
+}
+
+.ingresarTexto {
+    color: #ffffff;
+    background: #400363;
+    border-radius: 7px;
+    padding: 10px;
+    border: 3px solid #ffffff;
+    margin: 10px 10px 0 0;
+}
+
+.ingresarTexto:focus {
+    outline: none;
+}
+
+.ingresarTexto::placeholder {
+    color: #ffffff;
+}
+
+.contenido-dos {
+    margin: 10px 0 10px 0;
+}
+
+.wrap{
+    width: 1246px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(HTML.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap-texto {
+    color: #ffffff;
+    text-align: center;
+    width: 50%;
+}
+
+.imagencero {
+    width: 1246px;
+    height: 600px;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(10px);
+}
+
+.imagen {
+    width: 300px;
+    height: 300px;
+}
+
+.seccion {
+    display: inline-block;
+    color: #000000;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    border: 4px dashed #ffffff;
+}
+
+.textodos::after {
+    content: "Esto literalmente va despues del texto y visita: ";
+}
+
+.link {
+    text-decoration: none;
+    color: #07c0a1;
+}
+
+.link:active {
+    color: #ff0000;
+}
+
+.link:focus {
+    color: #6e1199;
+}
+
+.link:visited {
+    color: #ffffff;
+}
+
+.link::selection {
+    background: #400363;
+    color: #c91b1b;
+}
